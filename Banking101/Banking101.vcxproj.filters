@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{32ec5dd2-5385-4103-af11-61d9bff8ac88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\BadEvents">
+      <UniqueIdentifier>{63198a59-4f38-4d1c-aa02-c7af54783b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\BadEventsArt">
+      <UniqueIdentifier>{74caffb2-9f60-4eea-84a1-8633f08d37aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\BankLevels">
+      <UniqueIdentifier>{65489535-7b90-47cb-8201-5f3f5b111813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\GoodEventArt">
+      <UniqueIdentifier>{ee8347f2-ca00-41d9-bbd7-97fc4106f218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\GoodEvents">
+      <UniqueIdentifier>{d9bd7016-fd4c-41d5-8a57-a46f47056685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Saves">
+      <UniqueIdentifier>{9462464e-9b83-4e75-a28e-3c1b7b4d11cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{4ce4947a-814e-478a-9da6-9bfbd76ba8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{269a822e-98ea-4d72-b600-f84033951ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other Objects">
+      <UniqueIdentifier>{dcf1cc76-b58e-4103-9ceb-0e19fe6003fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{5d220c48-4fda-48f5-99a6-a41e0768c90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other Objects">
+      <UniqueIdentifier>{8ddea94a-0636-4e32-aff4-cc3d2fd0e6b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{93ded0c1-e3bd-4e35-926a-45f7bff68618}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Banking101.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BadEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="GoodEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="InputObject.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Source Files\Other Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Other Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BadEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GoodEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="InputObject.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Header Files\Other Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Other Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\Scores.ini">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\BankLevels\LV1.ini">
+      <Filter>Data\BankLevels</Filter>
+    </None>
+    <None Include="data\BankLevels\LV2.ini">
+      <Filter>Data\BankLevels</Filter>
+    </None>
+    <None Include="data\BankLevels\LV3.ini">
+      <Filter>Data\BankLevels</Filter>
+    </None>
+    <None Include="data\BankLevels\LV4.ini">
+      <Filter>Data\BankLevels</Filter>
+    </None>
+    <None Include="data\Saves\InventorySave1.ini">
+      <Filter>Data\Saves</Filter>
+    </None>
+    <None Include="data\Saves\InventorySave2.ini">
+      <Filter>Data\Saves</Filter>
+    </None>
+    <None Include="data\Saves\Save1.ini">
+      <Filter>Data\Saves</Filter>
+    </None>
+    <None Include="data\Saves\Save2.ini">
+      <Filter>Data\Saves</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt1.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt2.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt3.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt4.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt5.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt6.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt7.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt8.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt9.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt10.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt11.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEventsArt\BadEventArt12.ini">
+      <Filter>Data\BadEventsArt</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent1.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent2.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent3.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent4.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent5.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent6.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent7.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent8.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent9.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent10.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent11.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\BadEvents\BadEvent12.ini">
+      <Filter>Data\BadEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent1.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent2.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent3.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent4.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent5.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent6.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent7.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent8.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent9.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent10.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent11.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEvents\GoodEvent12.ini">
+      <Filter>Data\GoodEvents</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt1.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt2.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt3.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt4.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt5.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt6.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt7.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt8.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt9.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt10.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt11.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+    <None Include="data\GoodEventArt\GoodEventArt12.ini">
+      <Filter>Data\GoodEventArt</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\README.txt">
+      <Filter>Data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
